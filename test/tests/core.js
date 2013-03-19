@@ -11,5 +11,14 @@ describe('Core functionality:', function() {
 		expect(Child.prototype).toEqual(jasmine.any(Object));
 		expect(Child.extend).toEqual(jasmine.any(Function));
 	});
+	
+	it('instanceof works', function() {
+		var Child = Base.extend({});
+		var ChildOfChild = Child.extend({});
+		
+		expect(new ChildOfChild() instanceof Child).toBe(true);
+		expect(new Child() instanceof Child).toBe(true);
+		expect(new Child() instanceof ChildOfChild).toBe(false);
+	});
 });
 	
