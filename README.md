@@ -9,7 +9,7 @@ This plugin aims to give a simple, lightweight OOP bootstrap for JavaScript with
   
   	  init: function(name) { // constructor
   		this.name = name;
-  	  }
+  	  },
   	
   	  walk: function() { // method
   		this.walking = true;
@@ -37,7 +37,7 @@ This plugin aims to give a simple, lightweight OOP bootstrap for JavaScript with
       	getDefault: function() {
       		return Language.EN;
       	}
-      }
+      },
       
       init: function(lang) {
       	this.lang = lang;
@@ -55,7 +55,7 @@ This plugin aims to give a simple, lightweight OOP bootstrap for JavaScript with
   
   	  init: function(name) {
   		this.name = name;
-  	  }
+  	  },
   	
   	  walk: function() {
   		this.walking = true;
@@ -67,7 +67,7 @@ This plugin aims to give a simple, lightweight OOP bootstrap for JavaScript with
   
   	  init: function(name) {
   		this._super(name); // call parent constructor
-  	  }
+  	  },
   	
   	  fly: function() {
   		this.flying = true;
