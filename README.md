@@ -1,7 +1,7 @@
 # Rich OOP features in 600 bytes of code!
 ##### Based on [Simple JavaScript Inheritance](http://ejohn.org/blog/simple-javascript-inheritance/) By John Resig
 
-This plugin aims to give a simple, lightweight OOP bootstrap for JavaScript without the heavy stuff like automatic dependency resolution and other "full solutions for your enterprise". Tiny amount of plain cross-browser JS and a solid [Jasmine](http://pivotal.github.com/jasmine/) test suite is all there is!
+This plugin aims to give a simple, lightweight OOP bootstrap for JavaScript without the heavy stuff like automatic dependency resolution and other "full solutions for your enterprise". Tiny amount of plain cross-browser JS and a solid [Jasmine](https://jasmine.github.io/) test suite is all there is!
 
 ## Defining classes
     Person = Base.extend({
